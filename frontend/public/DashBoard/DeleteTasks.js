@@ -10,7 +10,7 @@ async function confirmDeleteTask(){
     const taskId = document.getElementById("taskIdToDelete").value;
 
     try{
-        const response = await fetch(`http://localhost:3000/deleteTask/${taskId}`, {
+        const response = await fetch(`https://task-manager-backend-one-ruddy.vercel.app/api/deleteTask/${taskId}`, {
             method: "DELETE",
             credentials: "include",
             headers: {
