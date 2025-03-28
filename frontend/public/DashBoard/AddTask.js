@@ -20,7 +20,7 @@ AddTaskButton.addEventListener("click", async (e)=>{
         return;
     }
 
-    const response = await fetch("http://localhost:3000/addTask", {
+    const response = await fetch("https://task-manager-backend-one-ruddy.vercel.app/api/addTask", {
         method: "POST",
         credentials: "include",  // Important for cookies
         headers: {
