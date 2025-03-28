@@ -19,7 +19,7 @@ submitButton.addEventListener("click",async(e)=>{
         return;
     }
     try{
-        const response = await fetch("http://localhost:3000/SignUpCheck", {
+        const response = await fetch("https://task-manager-backend-one-ruddy.vercel.app/api/SignUpCheck", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
