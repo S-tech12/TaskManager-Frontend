@@ -5,7 +5,7 @@ HardLink.addEventListener("click",DisplayHard);
 
 async function DisplayHard(){
     try{
-        const response = await fetch("http://localhost:3000/HardTasks" ,{
+        const response = await fetch("https://task-manager-backend-one-ruddy.vercel.app/api/HardTasks" ,{
             method: "GET",
             credentials: "include",
             headers: {
