@@ -5,7 +5,7 @@ LessPriority.addEventListener("click",DisplayLowPriority);
 
 async function DisplayLowPriority(){
     try{
-        const response = await fetch("http://localhost:3000/LowPriorityTasks" ,{
+        const response = await fetch("https://task-manager-backend-one-ruddy.vercel.app/api/LowPriorityTasks" ,{
             method: "GET",
             credentials: "include",
             headers: {
