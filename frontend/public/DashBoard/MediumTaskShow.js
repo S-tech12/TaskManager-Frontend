@@ -5,7 +5,7 @@ MediumLink.addEventListener("click",DisplayMedium);
 
 async function DisplayMedium(){
     try{
-        const response = await fetch("http://localhost:3000/MediumTasks" ,{
+        const response = await fetch("https://task-manager-backend-one-ruddy.vercel.app/api/MediumTasks" ,{
             method: "GET",
             credentials: "include",
             headers: {
