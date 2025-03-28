@@ -5,7 +5,7 @@ MediumPriority.addEventListener("click",DisplayMediumPriority);
 
 async function DisplayMediumPriority(){
     try{
-        const response = await fetch("http://localhost:3000/MediumPriorityTasks" ,{
+        const response = await fetch("https://task-manager-backend-one-ruddy.vercel.app/api/MediumPriorityTasks" ,{
             method: "GET",
             credentials: "include",
             headers: {
