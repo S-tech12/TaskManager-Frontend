@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded",fetchTasks);
 
 async function fetchTasks(){
     try {
-        const response = await fetch("http://localhost:3000/getTasks", {
+        const response = await fetch("https://task-manager-backend-one-ruddy.vercel.app/api/getTasks", {
             method: "GET",
             credentials: "include",
             headers: {
