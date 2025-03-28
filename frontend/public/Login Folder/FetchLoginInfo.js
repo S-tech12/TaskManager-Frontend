@@ -15,7 +15,7 @@ LoginButton.addEventListener("click", async (e) => {
 
     try {
         // Send a POST request to the LoginCheck route
-        const response = await fetch("http://localhost:3000/LoginCheck", {
+        const response = await fetch("https://task-manager-backend-one-ruddy.vercel.app/api/LoginCheck", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
