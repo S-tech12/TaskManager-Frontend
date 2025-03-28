@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded",showData);
 
 async function showData() {
     try {
-        const response = await fetch("http://localhost:3000/getProfileData", {
+        const response = await fetch("https://task-manager-backend-one-ruddy.vercel.app/api/getProfileData", {
             method: "GET",
             credentials: "include",
             headers: {
@@ -41,7 +41,7 @@ editProfileButton.addEventListener("click", FetchTheData);
 
 async function FetchTheData() {
     try {
-        const response = await fetch("http://localhost:3000/getProfileData", {
+        const response = await fetch("https://task-manager-backend-one-ruddy.vercel.app/api/getProfileData", {
             method: "GET",
             credentials: "include",
             headers: {
