@@ -5,7 +5,7 @@ EasyLink.addEventListener("click",DisplayEasy);
 
 async function DisplayEasy(){
     try{
-        const response = await fetch("http://localhost:3000/EasyTasks" ,{
+        const response = await fetch("https://task-manager-backend-one-ruddy.vercel.app/api/EasyTasks" ,{
             method: "GET",
             credentials: "include",
             headers: {
