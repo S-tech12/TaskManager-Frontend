@@ -1,0 +1,63 @@
+.TasksContainer .card {
+    width: 20rem; /* Applied by default */
+}
+
+@media screen and (max-width:365px) {
+    .TasksContainer .card{
+        width: 20rem;
+    }
+
+    .TasksContainer .card .card-header h4{
+        font-size: larger;
+    }
+
+    .TasksContainer .card .card-body p{
+        font-size: smaller;
+    }
+    
+    .TasksContainer .card .card-body .blockquote-footer{
+        font-size: small;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .TasksContainer .card .card-footer p{
+        font-size: smaller;
+    }
+
+    .TasksContainer .card .card-footer .UpdateDeleteIcons h5{
+        font-size: medium;
+    }
+}
+
+@media screen and (max-width:285px) {
+    .TasksContainer .card .card-footer .UpdateDeleteIcons{
+        gap: 1rem;
+    }
+    .TasksContainer .card .card-footer .UpdateDeleteIcons h5{
+        font-size: smaller;
+    }
+}
+
+@media screen and (max-width:254px) {
+    .TasksContainer .card .card-footer p{
+        font-size: x-small;
+    }
+
+    .TasksContainer .card .card-footer .UpdateDeleteIcons h5{
+        font-size: small;
+    }
+}
+
+@media screen and (max-width:242px) {
+    .TasksContainer{
+        padding: 0rem;
+    }
+}
+
+@media  screen and (max-width:219px) {
+    #TaskManagerName{
+        font-size: x-large;
+    }
+}
+

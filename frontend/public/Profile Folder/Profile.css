@@ -1,0 +1,36 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    height: 100vh;
+    overflow: auto;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.container{
+    margin-top: 3rem;
+    padding: 1.5rem;
+}
+
+#imageOfUser{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#UserBox{
+    box-shadow: 2px 4px 25px black;
+    border-radius: 25px;
+    max-width: 840px;
+    height: fit-content;
+    padding: 2rem;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+

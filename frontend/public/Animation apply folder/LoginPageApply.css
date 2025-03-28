@@ -1,0 +1,4 @@
+.container{
+    opacity: 0;
+    animation: DownToUp 3s forwards;
+}

@@ -1,0 +1,82 @@
+body{
+    height: 100vh;
+    overflow: auto;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.d-flex{
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+#TaskManagerName{
+    font-size: xx-large;
+}
+
+#EasyLink{
+    color: #16C47F;
+    font-weight: 600;
+}
+#MediumLink{
+    color: #FFD65A;
+    font-weight: 600;
+}
+#HardLink{
+    color: #FF204E;
+    font-weight: 600;
+}
+#AllLink{
+    font-weight: 600;
+}
+
+#HighPriority{
+    color: #F93827;
+    font-weight: 600;
+}
+
+#MediumPriority{
+    color: #FFD65A;
+    font-weight: 600;
+}
+
+#LessPriority{
+    color: #16C47F;
+    font-weight: 600;
+}
+
+#AllPriority{
+    font-weight: 600;
+}
+
+.TasksContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    /* padding: 2rem; */
+    margin-top: 2rem;
+    height: 100%;
+    width: 100%;
+}
+
+.TasksContainer .card{
+    box-shadow: 2px 4px 20px black;
+    border-radius: 15px;
+}
+
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.UpdateDeleteIcons{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.UpdateDeleteIcons h5{
+    cursor: pointer;
+}
