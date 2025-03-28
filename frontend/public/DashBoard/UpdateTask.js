@@ -29,7 +29,7 @@ async function updateTask() {
     }
 
     try {
-        const response = await fetch(`http://localhost:3000/updateTask/${taskId}`, {
+        const response = await fetch(`https://task-manager-backend-one-ruddy.vercel.app/api/updateTask/${taskId}`, {
             method: "PUT",
             credentials: "include",
             headers: { "Content-Type": "application/json" },
